@@ -1,0 +1,25 @@
+.heading {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 8rem;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.cat-div {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 5rem;
+    justify-content: space-evenly;
+}
+
+.cat-box {
+    border: 1px solid var(--border-color);
+    background-color: tomato;
+    border-radius: 20px;
+    text-align: center;
+    width: 35rem;
+    height: 20rem;
+}
